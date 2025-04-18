@@ -1,0 +1,19 @@
+Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+project open {E:/Dedee/MAVEN/100 Days of rtl/Day4/sim/half_adder}
+# Loading project half_adder
+vsim -gui work.half_adder_tb
+# vsim -gui work.half_adder_tb 
+# Start time: 12:01:28 on Apr 18,2025
+# Loading work.half_adder_tb
+# Loading work.half_adder
+add wave -position insertpoint sim:/half_adder_tb/*
+run -all
+#                    5Sum is x , Carry is x
+#                   15Sum is 0, Carry is 0
+#                   30Sum is 1, Carry is 0
+#                   50Sum is 1 , Carry is 0
+# ** Note: $finish    : E:/Dedee/MAVEN/100 Days of rtl/Day4/tb/half_adder_tb.v(28)
+#    Time: 100 ps  Iteration: 0  Instance: /half_adder_tb
+# 1
+# Break in Module half_adder_tb at E:/Dedee/MAVEN/100 Days of rtl/Day4/tb/half_adder_tb.v line 28
+
