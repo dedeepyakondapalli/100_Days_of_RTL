@@ -1,0 +1,21 @@
+Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+project open {E:/Dedee/MAVEN/100 Days of rtl/Day3/sim/expr}
+# Loading project expr
+vsim -gui work.expr_tb
+# vsim -gui work.expr_tb 
+# Start time: 11:33:31 on Apr 18,2025
+# Loading work.expr_tb
+# Loading work.expr
+add wave -r sim:/expr_tb/DUT/*
+run -all
+# a=1,b=0,c=1,d=0,z=x
+# a=1,b=0,c=1,d=1,z=1
+# a=1,b=1,c=0,d=0,z=0
+# a=1,b=1,c=0,d=1,z=1
+# a=1,b=1,c=1,d=0,z=1
+# a=1,b=1,c=1,d=1,z=0
+#                   60
+# ** Note: $finish    : E:/Dedee/MAVEN/100 Days of rtl/Day3/tb/expr_tb.v(36)
+#    Time: 60 ps  Iteration: 0  Instance: /expr_tb
+# 1
+# Break in Module expr_tb at E:/Dedee/MAVEN/100 Days of rtl/Day3/tb/expr_tb.v line 36
