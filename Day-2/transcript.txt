@@ -1,0 +1,20 @@
+ Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+project open {E:/Dedee/MAVEN/100 Days of rtl/Day2/sim/universal_gates}
+# Loading project universal_gates
+vsim -gui work.universal_gates_tb
+# vsim -gui work.universal_gates_tb 
+# Start time: 11:23:49 on Apr 18,2025
+# Loading work.universal_gates_tb
+# Loading work.universal_gates
+add wave -r sim:/universal_gates_tb/DUT/*
+run -all
+# a=0,b=0,out_nand=x,out_nor=x,out_xor=x,out_xnor=x
+# a=0,b=1,out_nand=1,out_nor=1,out_xor=0,out_xnor=1
+# a=1,b=0,out_nand=1,out_nor=0,out_xor=1,out_xnor=0
+# a=1,b=1,out_nand=1,out_nor=0,out_xor=1,out_xnor=0
+#                   50
+# ** Note: $finish    : E:/Dedee/MAVEN/100 Days of rtl/Day2/tb/universal_gates_tb.v(28)
+#    Time: 50 ps  Iteration: 0  Instance: /universal_gates_tb
+# 1
+# Break in Module universal_gates_tb at E:/Dedee/MAVEN/100 Days of rtl/Day2/tb/universal_gates_tb.v line 28
+
