@@ -1,0 +1,24 @@
+Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+project open {E:/Dedee/MAVEN/100 Days of rtl/Day6/sim/half_subtractor}
+# Loading project half_subtractor
+vsim -gui work.half_subtractor_tb
+# vsim -gui work.half_subtractor_tb 
+# Start time: 12:54:29 on Apr 20,2025
+# Loading work.half_subtractor_tb
+# Loading work.half_subtractor
+add wave -position insertpoint  \
+sim:/half_subtractor_tb/a
+add wave -position insertpoint  \
+sim:/half_subtractor_tb/b
+add wave -position insertpoint  \
+sim:/half_subtractor_tb/diff
+add wave -position insertpoint  \
+sim:/half_subtractor_tb/borrow
+add wave -position insertpoint  \
+sim:/half_subtractor_tb/i
+run -all
+# a=0,b=0,diff=0,borrow=0
+# a=0,b=1,diff=1,borrow=1
+# a=1,b=0,diff=1,borrow=0
+# a=1,b=1,diff=0,borrow=0
+# a=0,b=0,diff=0,borrow=0
