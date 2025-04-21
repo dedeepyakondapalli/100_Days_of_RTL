@@ -1,0 +1,21 @@
+Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+project open {E:/Dedee/MAVEN/100 Days of rtl/Day7/sim/full_subtractor}
+# Loading project full_subtractor
+# Compile of full_subtractor.v was successful.
+# Compile of full_subtractor_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.full_subtractor_tb
+# vsim -gui work.full_subtractor_tb 
+# Start time: 22:30:54 on Apr 21,2025
+# Loading work.full_subtractor_tb
+# Loading work.full_subtractor
+run -all
+# a=0,b=0,c=0,diff=x,borrow=x
+# a=0,b=0,c=1,diff=0,borrow=0
+# a=0,b=1,c=0,diff=1,borrow=1
+# a=0,b=1,c=1,diff=1,borrow=1
+# a=1,b=0,c=0,diff=0,borrow=1
+# a=1,b=0,c=1,diff=1,borrow=0
+# a=1,b=1,c=0,diff=0,borrow=0
+# a=1,b=1,c=1,diff=0,borrow=0
+# a=0,b=0,c=0,diff=1,borrow=1
