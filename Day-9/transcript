@@ -1,0 +1,23 @@
+Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+project open {E:/Dedee/MAVEN/100 Days of rtl/Day9/sim/carryskipadder}
+# Loading project carryskipadder
+vsim -gui work.carryskipadder_tb
+# vsim -gui work.carryskipadder_tb 
+# Start time: 22:58:32 on Apr 23,2025
+# Loading work.carryskipadder_tb
+# Loading work.carryskipadder
+# Loading work.full_adder
+# Loading work.half_adder
+# Loading work.mux
+run -all
+# a= 0,b= 0,cin=0,sum= 0,cout=0
+# a= 1,b= 2,cin=1,sum= 4,cout=0
+# a= 3,b= 8,cin=0,sum=11,cout=0
+# a=10,b= 5,cin=1,sum= 0,cout=1
+# a= 7,b= 4,cin=0,sum=11,cout=0
+# a= 6,b= 6,cin=1,sum=13,cout=0
+# a=10,b=15,cin=0,sum= 9,cout=1
+# ** Note: $finish    : E:/Dedee/MAVEN/100 Days of rtl/Day9/tb/carryskipadder_tb.v(42)
+#    Time: 80 ps  Iteration: 0  Instance: /carryskipadder_tb
+# 1
+# Break in Module carryskipadder_tb at E:/Dedee/MAVEN/100 Days of rtl/Day9/tb/carryskipadder_tb.v line 42
