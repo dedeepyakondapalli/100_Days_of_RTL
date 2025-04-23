@@ -1,0 +1,37 @@
+Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+project open {E:/Dedee/MAVEN/100 Days of rtl/Day-8/sim/ripple_ca_adder}
+# Loading project ripple_ca_adder
+# Compile of full_adder.v was successful.
+# Compile of ripple_ca_adder.v was successful.
+# Compile of ripple_ca_adder_tb.v was successful.
+# Compile of half_adder.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.ripple_ca_adder_tb
+# vsim -gui work.ripple_ca_adder_tb 
+# Start time: 18:13:10 on Apr 23,2025
+# Loading work.ripple_ca_adder_tb
+# Loading work.ripple_ca_adder
+# Loading work.full_adder
+# Loading work.half_adder
+add wave -position insertpoint  \
+sim:/ripple_ca_adder_tb/a
+add wave -position insertpoint  \
+sim:/ripple_ca_adder_tb/a
+add wave -position insertpoint  \
+sim:/ripple_ca_adder_tb/b
+add wave -position insertpoint  \
+sim:/ripple_ca_adder_tb/cin
+add wave -position insertpoint  \
+sim:/ripple_ca_adder_tb/sum
+add wave -position insertpoint  \
+sim:/ripple_ca_adder_tb/carry
+run -all
+# time = 0 | a = 000000 (0), b = 000000 (0), cin = 0 | sum = 000000 (0), carry = 0
+# time = 5 | a = 111111 (63), b = 111111 (63), cin = 0 | sum = 111110 (62), carry = 1
+# time = 10 | a = 100011 (35), b = 011001 (25), cin = 1 | sum = 111101 (61), carry = 0
+# time = 15 | a = 000000 (0), b = 001111 (15), cin = 1 | sum = 010000 (16), carry = 0
+# time = 20 | a = 101100 (44), b = 000101 (5), cin = 0 | sum = 110001 (49), carry = 0
+# ** Note: $finish    : E:/Dedee/MAVEN/100 Days of rtl/Day-8/tb/ripple_ca_adder_tb.v(22)
+#    Time: 25 ps  Iteration: 0  Instance: /ripple_ca_adder_tb
+# 1
+# Break in Module ripple_ca_adder_tb at E:/Dedee/MAVEN/100 Days of rtl/Day-8/tb/ripple_ca_adder_tb.v line 22
