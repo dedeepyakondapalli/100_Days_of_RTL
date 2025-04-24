@@ -1,0 +1,30 @@
+Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+project open {E:/Dedee/MAVEN/100 Days of rtl/Day10/sim/adder_subtract}
+# Loading project adder_subtract
+vsim -gui work.adder_subtract_tb
+# vsim -gui work.adder_subtract_tb 
+# Start time: 22:37:46 on Apr 24,2025
+# Loading work.adder_subtract_tb
+# Loading work.adder_subtract
+# Loading work.full_adder
+# Loading work.half_adder
+vsim -gui work.adder_subtract_tb
+# End time: 22:38:39 on Apr 24,2025, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 0
+# vsim -gui work.adder_subtract_tb 
+# Start time: 22:38:39 on Apr 24,2025
+# Loading work.adder_subtract_tb
+# Loading work.adder_subtract
+# Loading work.full_adder
+# Loading work.half_adder
+run -all
+# Time = 0,a=0000,b=0000,ctrl=0,sum=xxxx,carry=x,ctrl=0
+# Time = 10,a=1111,b=1111,ctrl=1,sum=0000,carry=0,ctrl=1
+# Time = 20,a=1100,b=0011,ctrl=0,sum=0000,carry=1,ctrl=0
+# Time = 30,a=1011,b=0101,ctrl=1,sum=1111,carry=0,ctrl=1
+# Time = 40,a=0111,b=0111,ctrl=0,sum=0110,carry=1,ctrl=0
+# Time = 50,a=1000,b=0001,ctrl=1,sum=1110,carry=0,ctrl=1
+# ** Note: $finish    : E:/Dedee/MAVEN/100 Days of rtl/Day10/tb/adder_subtract_tb.v(37)
+#    Time: 60 ps  Iteration: 0  Instance: /adder_subtract_tb
+# 1
+# Break in Module adder_subtract_tb at E:/Dedee/MAVEN/100 Days of rtl/Day10/tb/adder_subtract_tb.v line 37
