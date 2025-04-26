@@ -1,0 +1,22 @@
+Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+project open {E:/Dedee/MAVEN/100 Days of rtl/Day12/sim/decoder_24}
+# Loading project decoder_24
+# Compile of decoder_24.v was successful.
+# Compile of decoder_24_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.decoder_24_tb
+# vsim -gui work.decoder_24_tb 
+# Start time: 20:28:47 on Apr 26,2025
+# Loading work.decoder_24_tb
+# Loading work.decoder_24
+add wave -position insertpoint  \
+sim:/decoder_24_tb/d
+add wave -position insertpoint  \
+sim:/decoder_24_tb/y
+add wave -position insertpoint  \
+sim:/decoder_24_tb/i
+run -all
+# Time = 0, d[0] = 0,d[1] = 0, y[0] = x, y[1] = x, y[2] = x, y[3] = x
+# Time = 5, d[0] = 1,d[1] = 0, y[0] = 1, y[1] = 0, y[2] = 0, y[3] = 0
+# Time = 10, d[0] = 0,d[1] = 1, y[0] = 0, y[1] = 1, y[2] = 0, y[3] = 0
+# Time = 15, d[0] = 1,d[1] = 1, y[0] = 0, y[1] = 0, y[2] = 1, y[3] = 0
