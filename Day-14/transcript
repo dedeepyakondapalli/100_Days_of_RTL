@@ -1,0 +1,21 @@
+# Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# project open {E:/Dedee/MAVEN/100 Days of rtl/Day14/sim/encoder2_4}
+# Loading project encoder2_4
+# Compile of encoder2_4.v was successful
+# Compile of encoder2_4_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# vsim -gui work.encoder2_4_tb
+# vsim -gui work.encoder2_4_tb 
+# Start time: 22:28:45 on Apr 28,2025
+# Loading work.encoder2_4_tb
+# Loading work.encoder2_4
+# add wave -position insertpoint sim:/encoder2_4_tb/*
+# run -all
+# Time = 10 | d = 0001 | y = 00
+# Time = 15 | d = 0010 | y = 00
+# Time = 20 | d = 0100 | y = 01
+# Time = 25 | d = 1000 | y = 10
+# ** Note: $finish    : E:/Dedee/MAVEN/100 Days of rtl/Day14/tb/encoder2_4_tb.v(24)
+#    Time: 35 ps  Iteration: 0  Instance: /encoder2_4_tb
+# 1
+# Break in Module encoder2_4_tb at E:/Dedee/MAVEN/100 Days of rtl/Day14/tb/encoder2_4_tb.v line 24
