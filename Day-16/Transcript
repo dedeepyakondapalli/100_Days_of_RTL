@@ -1,0 +1,24 @@
+Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+project open {E:/Dedee/MAVEN/100 Days of rtl/Day16/sim/bcd_to7_display}
+# Loading project bcd_to7_display
+# Compile of bcd_to7_display.v was successful.
+# Compile of bcd_to7_display_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.bcd_to7_display_tb
+# vsim -gui work.bcd_to7_display_tb 
+# Start time: 15:11:31 on May 01,2025
+# Loading work.bcd_to7_display_tb
+# Loading work.bcd_to7_display
+add wave -position insertpoint sim:/bcd_to7_display_tb/*
+run -all
+# Time = 0 | bcd =  0 | seg = xxxxxxx
+# Time = 5 | bcd =  1 | seg = 1111110
+# Time = 10 | bcd =  2 | seg = 0110000
+# Time = 15 | bcd =  3 | seg = 1101101
+# Time = 20 | bcd =  4 | seg = 1111001
+# Time = 25 | bcd =  5 | seg = 0110011
+# Time = 30 | bcd =  6 | seg = 1011011
+# Time = 35 | bcd =  7 | seg = 1011111
+# Time = 40 | bcd =  8 | seg = 1110000
+# Time = 45 | bcd =  9 | seg = 1111110
+# A time value could not be extracted from the current line
