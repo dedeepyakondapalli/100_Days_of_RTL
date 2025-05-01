@@ -1,0 +1,31 @@
+Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+project open {E:/Dedee/MAVEN/100 Days of rtl/Day15/sim/pri_encoder}
+# Loading project pri_encoder
+# Compile of pri_encoder.v was successful.
+# Compile of pri_encoder_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.pri_encoder_tb
+# vsim -gui work.pri_encoder_tb 
+# Start time: 15:08:07 on May 01,2025
+# Loading work.pri_encoder_tb
+# Loading work.pri_encoder
+add wave -position insertpoint sim:/pri_encoder_tb/*
+run -all
+# Time	Input		Output	Valid
+# 0ns	00000000	000	0
+# 10ns	00000001	000	1
+# 20ns	00000010	001	1
+# 30ns	00000100	010	1
+# 40ns	00001000	011	1
+# 50ns	00010000	100	1
+# 60ns	00100000	101	1
+# 70ns	01000000	110	1
+# 80ns	10000000	111	1
+# 90ns	11000000	111	1
+# 100ns	01100000	110	1
+# 110ns	00001111	011	1
+# 120ns	11111111	111	1
+# ** Note: $finish    : E:/Dedee/MAVEN/100 Days of rtl/Day15/tb/pri_encoder_tb.v(29)
+#    Time: 130 ps  Iteration: 0  Instance: /pri_encoder_tb
+# 1
+# Break in Module pri_encoder_tb at E:/Dedee/MAVEN/100 Days of rtl/Day15/tb/pri_encoder_tb.v line 29
